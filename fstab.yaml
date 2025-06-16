@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p150909-e1580600.adobeaemcloud.com/bin/franklin.delivery/AfshanGitAdobe/xwalkComplete/main"
+    url: "https://author-p150909-e1684185.adobeaemcloud.com/bin/franklin.delivery/AfshanGitAdobe/xwalkComplete/main"
     type: "markup"
     suffix: ".html"
