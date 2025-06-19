@@ -188,6 +188,46 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+    ]
+  },
+  {
+    "id": "text-image",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "content_imageMob",
+        "label": "Image Mobile",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_imageMobAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "content_imageDesk",
+        "label": "Image Desktop",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_imageDeskAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "content_text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   }
