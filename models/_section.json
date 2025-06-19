@@ -51,6 +51,7 @@
         "cards",
         "columns",
         "fragment",
+        "callout",
         "text-image"
       ]
     }
