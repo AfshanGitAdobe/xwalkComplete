@@ -118,6 +118,79 @@
     ]
   },
   {
+    "id": "callout",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "tagline",
+        "label": "Tagline"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "info_icon",
+        "label": "Icon",
+        "options": [
+          {
+            "name": "Calculator",
+            "value": ":calculator-white:"
+          },
+          {
+            "name": "Call",
+            "value": ":call-white:"
+          },
+          {
+            "name": "Chevron down",
+            "value": ":chevron-down-white:"
+          },
+          {
+            "name": "Compare",
+            "value": ":compare-white:"
+          },
+          {
+            "name": "Document",
+            "value": ":document-white:"
+          },
+          {
+            "name": "Download",
+            "value": ":download-white:"
+          },
+          {
+            "name": "Email",
+            "value": ":email-white:"
+          },
+          {
+            "name": "Hamburger",
+            "value": ":hamburger-white:"
+          },
+          {
+            "name": "Online",
+            "value": ":online-white:"
+          },
+          {
+            "name": "Phone",
+            "value": ":phone-white:"
+          },
+          {
+            "name": "Question Fill",
+            "value": ":question-fill-white:"
+          },
+          {
+            "name": "Search",
+            "value": ":search-white:"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "info_text",
+        "label": "Text"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -188,53 +261,6 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "textandbox",
-    "fields": [
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "title",
-        "label": "Title",
-        "value": ""
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "text",
-        "label": "Text",
-        "value": ""
-      },
-      {
-        "component": "select",
-        "label": "Box Title Icon",
-        "name": "box_titleIcon",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "None",
-            "value": ""
-          },
-          {
-            "name": "Ten Percent Indigo Large",
-            "value": ":ten-percent-indigo-large:"
-          }
-        ]
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "box_title",
-        "label": "Box Title"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "boxtext",
-        "label": "Box Text"
       }
     ]
   },
