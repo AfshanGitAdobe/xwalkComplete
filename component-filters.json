@@ -17,18 +17,11 @@
       "columns",
       "fragment",
       "callout",
-      "text-image",
-      "carousal"
+      "text-image"
     ]
   },
   {
     "id": "cards",
-    "components": [
-      "card"
-    ]
-  },
-  {
-    "id": "carousel",
     "components": [
       "card"
     ]
