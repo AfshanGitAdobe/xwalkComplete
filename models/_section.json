@@ -52,7 +52,8 @@
         "columns",
         "fragment",
         "callout",
-        "text-image"
+        "text-image",
+        "carousel"
       ]
     }
   ]
