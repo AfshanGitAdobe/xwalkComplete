@@ -150,14 +150,14 @@
   
   @media only screen and (width <=1024px) {
     .section.carousel-container {
-      max-width: 1456px
+      max-width: 1456px;
       margin: auto;
       flex-direction: column;
       padding: 64px 0;
     }
   
     html[dir="rtl"] .section.carousel-container {
-      max-width: 1456px
+      max-width: 1456px;
       margin: auto;
       padding: 64px 0;
     }
@@ -263,7 +263,7 @@
   @media only screen and (width < 768px) {
     .carousel > .prev,
     .carousel > .next {
-      right: var(25px);
+      right: 25px;
       top: 20%; 
       cursor: pointer;
       position: absolute;
@@ -274,7 +274,7 @@
   
     html[dir="rtl"] .carousel > .prev,
     .carousel > .next {
-      left: var(25px);
+      left: 25px;
       top: 20%; 
     }
     
