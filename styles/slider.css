@@ -1,8 +1,8 @@
 .carousel-container {
     display: flex;
-    max-width: calc(1600px - var(--section-gutter-space));
-    padding: 0 var(--section-gutter-space);
-    background-color: var(--white);
+    max-width: calc(1600px - 28px);
+    padding: 0 28px;
+    background-color: #fff;
     box-shadow: none;
   }
   
@@ -17,8 +17,8 @@
   }
    
   .carousel-container .button-container button {
-    background-color: var(--white);
-    border: 2px solid var(--accent-blue-primary-70);
+    background-color: #fff;
+    border: 2px solid #004370;
     padding: 6px 11px;
     right: 3%;
     cursor: pointer;
@@ -28,14 +28,14 @@
   
   .carousel-container .button-container button:disabled {
     opacity: 0.5;
-    background-color: var(--neutral-solid-30-s);
+    background-color: #bdccdb;
     color: rgb(0 41 77 / 42%);
     cursor: unset;
   }
   
   html[dir="rtl"] .carousel-container .button-container button {
-    background-color: var(--white);
-    border: 2px solid var(--accent-blue-primary-70);
+    background-color: #fff;
+    border: 2px solid #004370;
     padding: 6px 11px;
     right: auto;
     left: 3%;
@@ -46,24 +46,24 @@
   
   .carousel-container > .default-content-wrapper > p:first-child {
     font-weight: 800;
-    font-size: var(--eyebrow-font-size-m);
+    font-size: 14px;
     line-height: 15px;
-    padding-bottom: var(--spacing-small);
-    color: var(--neutral-alpha-57-a);
+    padding-bottom: 0.5rem;
+    color: #000d1a91;
   }
   
   .carousel-container > .default-content-wrapper > p:nth-child(2) {
     font-weight: 400;
-    font-size: var(--font-size-1000);
+    font-size: 2rem;
     line-height: 44px;
-    padding-bottom: var(--spacing-xlarge);
-    color: var(--accent-blue-primary-90);
+    padding-bottom: 1.75rem;
+    color: #012740;
     text-transform: uppercase;
     letter-spacing: -2px;
   }
     
   .carousel-container > .default-content-wrapper > p:nth-child(2) > strong {
-    color: var(--accent-blue-primary-90);
+    color: #012740;
   }
   
   .carousel-container .button-container {
@@ -134,7 +134,7 @@
     font-size: 14px;
     line-height: 17px;
     font-weight: 400;
-    color: var(--neutral-alpha-95-a);
+    color: #000d1af5;
     padding: 24px 0 0;
     margin: 0;
   }
@@ -150,14 +150,14 @@
   
   @media only screen and (width <=1024px) {
     .section.carousel-container {
-      max-width: var(--screen-width);
+      max-width: 1456px;
       margin: auto;
       flex-direction: column;
       padding: 64px 0;
     }
   
     html[dir="rtl"] .section.carousel-container {
-      max-width: var(--screen-width);
+      max-width: 1456px;
       margin: auto;
       padding: 64px 0;
     }
@@ -166,17 +166,17 @@
       display: grid;
       grid-template-columns: 2fr 1fr;
       grid-template-rows: 1fr;
-      padding: 0 var(--section-gutter-space);
+      padding: 0 28px;
     }
     
     .carousel-container > .default-content-wrapper p:first-child {
       grid-column: 1 / 2;
       grid-row: 1 / 1;
-      font-weight: var(--font-weight-700);
+      font-weight: 700;
       font-size: 14px;
       line-height: 17px;
       padding-bottom: 12px;
-      color: var(--neutral-alpha-70-a);
+      color: #000d1ab2;
     }
     
     .carousel-container > .default-content-wrapper p:nth-child(2) {
@@ -193,7 +193,7 @@
       font-weight: 400;
       font-size: 32px;
       line-height: 35px;
-      color: var(--accent-blue-primary-90);
+      color: #012740;
       padding-bottom: 40px;
       padding-right: 24px;
       padding-left: 0;
@@ -226,12 +226,12 @@
   
     .carousel > .prev,
     .carousel > .next {
-      right: var(--nav-height); 
+      right: 34px; 
     }
   
     html[dir="rtl"] .carousel > .prev,
     .carousel > .next {
-      left: var(--nav-height); 
+      left: 34px; 
     }
   
     .carousel .cards-card-body {
@@ -244,18 +244,18 @@
   
     /* .carousel-container .button-container a.button:any-link, button {
       font-size: 14px;
-      font-weight: var(--font-weight-700);
+      font-weight: 700;
       line-height: 23px;
       margin: 0;
     } */
   
     .carousel-container > div.carousel-wrapper {
       padding-right: 0;
-      padding-left: var(--section-gutter-space);
+      padding-left: 28px;
     }
   
     html[dir="rtl"] .carousel-container > div.carousel-wrapper {
-      padding-right: var(--section-gutter-space);
+      padding-right: 28px;
       padding-left: 0;
     }
   }
@@ -263,7 +263,7 @@
   @media only screen and (width < 768px) {
     .carousel > .prev,
     .carousel > .next {
-      right: var(--nav-padding);
+      right: 25px;
       top: 20%; 
       cursor: pointer;
       position: absolute;
@@ -274,7 +274,7 @@
   
     html[dir="rtl"] .carousel > .prev,
     .carousel > .next {
-      left: var(--nav-padding);
+      left: 25px;
       top: 20%; 
     }
     
@@ -312,7 +312,7 @@
       font-weight: 400;
       font-size: 28px;
       line-height: 31px;
-      color: var(--accent-blue-primary-90);
+      color: #012740;
       padding-bottom: 24px;
     }
   
@@ -337,7 +337,7 @@
   @media only screen and (width > 1024px) {
     main .section.carousel-container {
       margin: auto;
-      padding-left: var(--section-gutter-space);
+      padding-left: 28px;
     }
   
     .carousel-container > .default-content-wrapper {
@@ -350,18 +350,18 @@
   
     html[dir="rtl"] .section.carousel-container {
       margin: auto;
-      padding: 96px var(--section-gutter-space) 96px 0;
+      padding: 96px 28px 96px 0;
     }
   
     .carousel-container .button-container a.button:any-link, button {
       font-size: 16px;
-      font-weight: var(--font-weight-700);
+      font-weight: 700;
       line-height: 24px;
       padding: 16px 32px;
     }
   
     .carousel-container .button-container button:disabled {
-      background-color: var(--neutral-solid-30-s);
+      background-color: #bdccdb;
       color: rgb(0 41 77 / 42%);
       cursor: unset;
     }
