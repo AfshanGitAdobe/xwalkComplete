@@ -70,9 +70,9 @@
     display: inline;
   }
   
-  .carousel-container .button-container a.button:any-link, button {
+  /* .carousel-container .button-container a.button:any-link, button {
     margin: 0;
-  }
+  } */
     
   .section > div.carousel-wrapper {
     flex: 2;
@@ -242,12 +242,12 @@
       padding-bottom: 40px;
     }
   
-    .carousel-container .button-container a.button:any-link, button {
+    /* .carousel-container .button-container a.button:any-link, button {
       font-size: 14px;
       font-weight: var(--font-weight-700);
       line-height: 23px;
       margin: 0;
-    }
+    } */
   
     .carousel-container > div.carousel-wrapper {
       padding-right: 0;
