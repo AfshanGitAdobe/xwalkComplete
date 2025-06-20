@@ -12,7 +12,7 @@
 }
 
 .text-image {
-  background-color: var(--teal);
+  background-color: teal;
   display: flex;
   flex-direction: column;
   margin-bottom: 1.875rem;
@@ -21,9 +21,9 @@
 .text-image h2,
 .text-image .content {
   font-size: 1.375rem;
-  color: var(--white);
+  color: #fff;
   margin: 0 0 0.938rem;
-  font-weight: var(--font-weight-bold);
+  font-weight: bold;
   padding: 0.935rem 0 0 0.935rem;
 }
 
